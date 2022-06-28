@@ -48,4 +48,4 @@ print("추출된 B의 값 : " , b)
 
 import copy
 a = {'A' : 90, 'B' : 80, 'C' : 70}
-a2 = copy.deepcopy()
+# a2 = copy.deepcopy()
