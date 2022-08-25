@@ -1,0 +1,11 @@
+import hello_func
+import greeting_func
+
+# __name__ : 현재 모듈 이름(언더바 두개)
+def main():
+    print("insa_func 모듈입니다.")
+    print("__name__ : ", __name__) # 실행하면 __main__이 출력된다.
+    hello_func.hello()
+    greeting_func.greeting()
+
+main()
