@@ -2,11 +2,11 @@
 # 클래스 안에 첫 번째 메서드는 self
 class Pet:
     # 짖다
-    def bark_dog(self):
+    def bark_dog(self): # p1
         print("멍멍~")
-    def bark_cat(self):
+    def bark_cat(self): # p2
         print("야옹~야옹~")
-    def bark_hamster(self):
+    def bark_hamster(self): # p3
         print("찍찍~")
 
 # 클래스 사용
